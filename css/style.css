@@ -1,0 +1,558 @@
+/* ESTILOS PROPIOS - complementan a Bootstrap */
+
+body {
+    background-color: #1a1a2e;
+    color: white;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    /* hueco para que no tape el navbar fijo */
+    padding-top: 75px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* ------- CABECERA / NAVBAR ------- */
+.encabezado {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.95), rgba(26,26,46,0.9));
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.logo {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    color: white !important;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #b3001b;
+}
+
+.encabezado .nav-link {
+    color: white !important;
+    font-size: 1.05rem;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.encabezado .nav-link:hover {
+    color: #d4af37 !important;
+}
+
+
+/* ------- TITULOS ------- */
+.titulo {
+    font-family: 'Cinzel', serif;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: #d4af37;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+.subtitulo {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    color: #f5f5f5;
+    text-align: center;
+    border-bottom: 2px solid #b3001b;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+}
+
+
+/* ------- INICIO ------- */
+.Inicio {
+    background: linear-gradient(rgba(26,26,46,0.8), rgba(26,26,46,0.9)), url('../image/imagen_inicio.PNG');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 50px 20px;
+}
+
+.txt-inicio {
+    max-width: 800px;
+}
+
+.txt-inicio2 {
+    margin-top: 25px;
+    padding: 20px 40px;
+    background-color: #b3001b;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(179, 0, 27, 0.4);
+    font-weight: bold;
+}
+
+
+/* ------- HISTORIA ------- */
+.Historia {
+    margin: 25px;
+}
+
+.txt-historia {
+    max-width: 800px;
+}
+
+.txt-historia2 img {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+    max-width: 400px;
+}
+
+
+/* ------- MODERNA ------- */
+.Moderna {
+    margin: 25px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.txt-moderna, .txt-moderna2 {
+    max-width: 800px;
+}
+
+
+/* ------- ACTIVIDADES (tarjetas) ------- */
+.Actividades {
+    margin: 25px;
+}
+
+.card-yokai {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    border-left: 4px solid #d4af37;
+    border-radius: 0 10px 10px 0;
+    transition: transform 0.3s;
+}
+
+.card-yokai:hover {
+    transform: translateY(-5px);
+}
+
+.card-yokai .card-title {
+    color: #d4af37;
+    font-family: 'Cinzel', serif;
+}
+
+
+/* ------- PARTICIPAR ------- */
+.Participar {
+    margin: 25px;
+}
+
+.txt-participar {
+    max-width: 800px;
+    background-color: #b3001b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.list-participar .list-group-item,
+.list-gastronomia .list-group-item {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    border-left: 4px solid #d4af37;
+    margin-bottom: 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+/* ------- GASTRONOMIA ------- */
+.Gastronomia {
+    margin: 25px;
+}
+
+.txt-gastronomia {
+    max-width: 800px;
+    border: 1px solid #d4af37;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(212, 175, 55, 0.05);
+}
+
+
+/* ------- GALERIA ------- */
+.Galeria {
+    margin: 25px;
+}
+
+/* carrusel: limito la altura para que no salgan imagenes enormes */
+#carruselGaleria .carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-galeria {
+    background-color: rgba(0,0,0,0.4);
+    color: #ccc;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card-galeria:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+}
+
+.card-galeria img {
+    height: 220px;
+    object-fit: cover;
+}
+
+
+/* ------- CONCLUSION ------- */
+.Conclusion {
+    margin: 50px 25px;
+}
+
+.txt-Conclusion {
+    max-width: 800px;
+}
+
+.txt-Conclusion2 {
+    background-color: #b3001b;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.txt-Conclusion2 {
+    color: #ffffff !important;
+}
+
+.txt-Conclusion2:hover,
+.txt-Conclusion2:focus {
+    color: #fff9f9 !important;
+    text-decoration: none;
+    filter: brightness(1.05);
+}
+
+
+/* ------- FORMULARIO ------- */
+.Contacto {
+    margin: 25px;
+}
+
+.formulario {
+    max-width: 600px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.formulario .form-control {
+    background-color: rgba(255,255,255,0.05);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.formulario .form-control:focus {
+    background-color: rgba(255,255,255,0.08);
+    color: white;
+    border-color: #d4af37;
+    box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.2);
+}
+
+.btn-enviar {
+    background-color: #b3001b;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-enviar:hover {
+    background-color: #d4af37;
+    color: black;
+}
+
+
+/* ------- PIE DE PAGINA ------- */
+.pie-pagina {
+    background: linear-gradient(to bottom, rgba(26,26,46,0.8), rgba(0,0,0,0.95));
+    padding: 40px 20px;
+}
+
+.pie-pagina a {
+    color: white;
+    text-decoration: none;
+}
+
+.pie-pagina a:hover {
+    color: #d4af37;
+}
+
+.footer-nav a {
+    margin: 4px 0;
+}
+
+.redes-sociales {
+    background-color: #b3001b;
+    padding: 10px 25px;
+    border-radius: 50px;
+    gap: 15px;
+}
+
+.redes-sociales img {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 4px;
+    transition: transform 0.2s;
+}
+
+.redes-sociales img:hover {
+    transform: scale(1.2);
+}
+
+.copy {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+
+/* ------- TARJETAS DE PORTADA (index) ------- */
+.card-portada {
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    transition: transform 0.3s;
+}
+
+.card-portada:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(212, 175, 55, 0.25);
+}
+
+.card-portada img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-portada .card-title {
+    color: #d4af37;
+    font-family: 'Cinzel', serif;
+}
+
+
+/* ------- CAJAS DE DATOS RAPIDOS (index) ------- */
+.dato-box {
+    background-color: rgba(0,0,0,0.4);
+    border-top: 3px solid #b3001b;
+    padding: 25px 15px;
+    border-radius: 0 0 10px 10px;
+    height: 100%;
+}
+
+.dato-box h4 {
+    color: #d4af37;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 10px;
+}
+
+
+/* ------- BREADCRUMB ------- */
+.breadcrumb-yokai {
+    background: rgba(0,0,0,0.3);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.breadcrumb-yokai a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+.breadcrumb-yokai .breadcrumb-item.active {
+    color: #ccc;
+}
+
+.breadcrumb-yokai .breadcrumb-item + .breadcrumb-item::before {
+    color: #888;
+}
+
+
+/* ------- CITA / BLOCKQUOTE (historia) ------- */
+.cita-yokai {
+    max-width: 700px;
+    border-left: 4px solid #d4af37;
+    background: rgba(0,0,0,0.3);
+    padding: 20px 30px;
+    font-style: italic;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.cita-yokai p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.cita-yokai footer {
+    color: #d4af37;
+    font-size: 0.95rem;
+    font-style: normal;
+}
+
+
+/* ------- ACORDEON (historia) ------- */
+.accordion-yokai .accordion-item {
+    background-color: rgba(0,0,0,0.3);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    margin-bottom: 8px;
+}
+
+.accordion-yokai .accordion-button {
+    background-color: rgba(0,0,0,0.4);
+    color: #d4af37;
+    font-family: 'Cinzel', serif;
+}
+
+.accordion-yokai .accordion-button:not(.collapsed) {
+    background-color: rgba(179, 0, 27, 0.6);
+    color: white;
+    box-shadow: none;
+}
+
+.accordion-yokai .accordion-button:focus {
+    box-shadow: none;
+    border-color: #d4af37;
+}
+
+.accordion-yokai .accordion-body {
+    color: white;
+}
+
+
+/* ------- DROPDOWN DEL NAVBAR ------- */
+.dropdown-yokai {
+    background-color: #1a1a2e;
+    border: 1px solid rgba(212, 175, 55, 0.4);
+}
+
+.dropdown-yokai .dropdown-item {
+    color: white;
+}
+
+.dropdown-yokai .dropdown-item:hover {
+    background-color: rgba(179, 0, 27, 0.5);
+    color: #d4af37;
+}
+
+
+/* ------- SELECT del formulario ------- */
+.formulario .form-select {
+    background-color: rgba(255,255,255,0.05);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.formulario .form-select:focus {
+    background-color: rgba(255,255,255,0.08);
+    color: white;
+    border-color: #d4af37;
+    box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.2);
+}
+
+
+/* ===========================
+   RESPONSIVE - 3 breakpoints
+   =========================== */
+
+/* Tablet */
+@media (max-width: 992px) {
+    .titulo {
+        font-size: 2.8rem;
+    }
+    .subtitulo {
+        font-size: 1.6rem;
+    }
+    #carruselGaleria .carousel-item img {
+        height: 350px;
+    }
+}
+
+/* Movil grande */
+@media (max-width: 768px) {
+    body {
+        padding-top: 70px;
+    }
+    .titulo {
+        font-size: 2.3rem;
+    }
+    .subtitulo {
+        font-size: 1.4rem;
+    }
+    .Inicio, .Historia, .Moderna, .Actividades, .Participar,
+    .Gastronomia, .Galeria, .Conclusion, .Contacto, .Acceso, .Datos, .Linea {
+        margin: 15px 10px;
+        padding: 20px 10px;
+    }
+    .card-portada img {
+        height: 200px;
+    }
+    #carruselGaleria .carousel-item img {
+        height: 280px;
+    }
+}
+
+/* Movil pequeño */
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .logo {
+        font-size: 1.3rem;
+    }
+    .txt-inicio2 {
+        padding: 15px 20px;
+    }
+    #carruselGaleria .carousel-item img {
+        height: 220px;
+    }
+    .formulario {
+        padding: 20px 15px;
+    }
+}
+
+/* Reducir espaciado para la llamada a la acción en móvil */
+@media (max-width: 576px) {
+    .cta-pegar {
+        padding-top: 0.8rem !important;
+        padding-bottom: 0.8rem !important;
+        margin-top: 0 !important;
+        margin-bottom: 0.5rem !important;
+    }
+    .cta-pegar .container {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}

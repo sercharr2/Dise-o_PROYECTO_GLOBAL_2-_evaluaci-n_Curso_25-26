@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia y Origen - Hyakki Yagyō</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- mis estilos -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top encabezado">
+        <div class="container-fluid px-4">
+
+            <a class="navbar-brand logo" href="index.html">Hyakki<span>Yagyō</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="menuNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="historia.html">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="festival.html">El Festival</a></li>
+                    <li class="nav-item"><a class="nav-link" href="festival.html#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <main>
+
+        <!-- BREADCRUMB -->
+        <div class="container mt-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-yokai">
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item active">Historia y origen</li>
+                </ol>
+            </nav>
+        </div>
+
+
+        <!-- HISTORIA Y ORIGEN -->
+        <section id="historia" class="Historia py-5">
+            <div class="container">
+
+                <h1 class="titulo">El Mito que Dio Vida a la Fiesta</h1>
+
+                <div class="txt-historia mx-auto text-center">
+                    <p>Según el folclore japonés, recogido en textos medievales como el Shūgaishō y el Konjaku Monogatari, existen noches asociadas al zodiaco chino en las que cientos de yokai (espíritus y monstruos) abandonan sus escondites y desfilan por las calles humanas.</p>
+                    <p>Se creía que cualquier mortal que osara mirar este desfile enfrentaría una maldición o sería "espiritado". La única protección era quedarse en casa en esas noches específicas o recitar un conjuro protector.</p>
+                </div>
+
+                <h2 class="subtitulo">¿Quién lidera el desfile?</h2>
+
+                <!-- texto + imagen con row/col -->
+                <div class="row align-items-center g-4 txt-historia2">
+                    <div class="col-lg-6">
+                        <p>La procesión es tradicionalmente guiada por el misterioso <strong>Nurarihyon</strong>, el maestro de los yokai, acompañado de otros seres como el Nozuchi y el Otoroshi. Este evento ha sido un tema popular en el arte japonés durante siglos, inmortalizado en rollos ilustrados (emaki) desde el período Muromachi.</p>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+                            <img src="./image/Hyakki_Yako.jpg" alt="Hyakki Yako emaki" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- cita destacada -->
+                <blockquote class="cita-yokai mt-5 mx-auto">
+                    <p>"En las noches del Buey, los demonios cabalgan por las calles. Quien lo vea, jamás volverá a ser el mismo."</p>
+                    <footer>— Konjaku Monogatari, siglo XII</footer>
+                </blockquote>
+
+            </div>
+        </section>
+
+
+        <!-- FIESTA MODERNA -->
+        <section id="moderna" class="Moderna py-5">
+            <div class="container text-center">
+
+                <h1 class="titulo">Del Mito a la Celebración</h1>
+
+                <div class="txt-moderna mx-auto">
+                    <p>Lo que una vez fue un temido presagio se ha transformado en una de las celebraciones más esperadas del otoño en Japón, especialmente en barrios tokiotas como Asakusa y Koenji. Hoy, el Hyakki Yagyo es un festival inclusivo y familiar donde los participantes se disfrazan de yokai para desfilar, bailar y celebrar juntos.</p>
+                </div>
+
+                <h2 class="subtitulo">¿En qué consiste hoy?</h2>
+
+                <div class="txt-moderna2 mx-auto">
+                    <p>Es la versión japonesa auténtica de Halloween, pero con una profundidad cultural única. Los asistentes visten disfraces increíblemente elaborados de personajes del folclore como Tengu, Kuchisake Onna, Kappa o Rokurokubi, creando un museo viviente de la rica mitología japonesa.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- LINEA DE TIEMPO con accordion de bootstrap -->
+        <section class="Linea py-5">
+            <div class="container">
+
+                <h2 class="subtitulo">Una tradición en evolución</h2>
+
+                <div class="accordion accordion-yokai" id="acordeonHistoria">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#col1">
+                                Período Heian (siglos VIII–XII)
+                            </button>
+                        </h2>
+                        <div id="col1" class="accordion-collapse collapse show" data-bs-parent="#acordeonHistoria">
+                            <div class="accordion-body">
+                                Primeras menciones del Hyakki Yagyo en textos como el Konjaku Monogatari. Se le considera una manifestación nocturna de espíritus a evitar.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col2">
+                                Período Muromachi (siglos XIV–XVI)
+                            </button>
+                        </h2>
+                        <div id="col2" class="accordion-collapse collapse" data-bs-parent="#acordeonHistoria">
+                            <div class="accordion-body">
+                                Aparecen los famosos rollos ilustrados (emaki) que representan el desfile con detalle. El folclore se populariza entre la nobleza.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col3">
+                                Período Edo (siglos XVII–XIX)
+                            </button>
+                        </h2>
+                        <div id="col3" class="accordion-collapse collapse" data-bs-parent="#acordeonHistoria">
+                            <div class="accordion-body">
+                                El folclore yokai entra en la cultura popular: grabados ukiyo-e, libros ilustrados y obras de kabuki dan vida a los espíritus.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col4">
+                                Actualidad
+                            </button>
+                        </h2>
+                        <div id="col4" class="accordion-collapse collapse" data-bs-parent="#acordeonHistoria">
+                            <div class="accordion-body">
+                                El mito se convierte en festival comunitario abierto al público. Asakusa y Koenji se llenan cada otoño de yokai disfrazados.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- LLAMADA A LA ACCION -->
+            <div class="py-5 text-center cta-pegar">
+                <div class="container">
+                    <p>Ya conoces la leyenda. Ahora descubre cómo se celebra hoy.</p>
+                    <a href="festival.html" class="btn btn-enviar">Ir al festival</a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PAGINA -->
+    <footer class="pie-pagina">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start g-3">
+
+                <div class="col-md-4">
+                    <div class="logo">Hyakki<span>Yagyō</span></div>
+                </div>
+
+                <div class="col-md-4">
+                    <nav class="footer-nav d-flex flex-column">
+                        <a href="index.html">Inicio</a>
+                        <a href="historia.html">Historia</a>
+                        <a href="festival.html">El Festival</a>
+                        <a href="festival.html#contacto">Contacto</a>
+                    </nav>
+                </div>
+
+                <div class="col-md-4 text-center text-md-end">
+                    <div class="redes-sociales d-inline-flex">
+                        <a href="#" class="social-icon"><img src="./image/facebook.png" alt="Facebook"></a>
+                        <a href="#" class="social-icon"><img src="./image/gorjeo.png" alt="Twitter"></a>
+                        <a href="#" class="social-icon"><img src="./image/instagram.png" alt="Instagram"></a>
+                        <a href="#" class="social-icon"><img src="./image/tik-tok.png" alt="TikTok"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="text-center mt-4 mb-0 copy">© 2025 Hyakki Yagyō · Proyecto DIWEB</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
